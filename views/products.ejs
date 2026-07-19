@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%=title %></title>
+</head>
+<body>
+    <h1>Welcome to the Products page</h1>
+    <ul>
+        <%products.forEach(product=>{ %>
+        <li>
+            <p> Name of the product: <%=product.name%> </p>
+            <p>Price of the product : <%=product.price%>$ </p>
+        </li>
+        <%})%>
+    </ul>
+</body>
+</html>
