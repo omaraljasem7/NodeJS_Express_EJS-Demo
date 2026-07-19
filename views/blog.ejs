@@ -1,0 +1,15 @@
+<%-include('partials/header')%>
+<%-include('partials/navbar')%>
+
+    <h1> Blog Page </h1>
+    <ul>
+        <% article.forEach((article)=> {%>
+            <li>
+                <%= article%>
+            </li>
+        <%})%>
+    </ul>
+
+<%-include('partials/footer')%>
+
+

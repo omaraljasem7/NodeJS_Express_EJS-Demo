@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%=title %></title>
+</head>
+<body>
+    <h1>Welcome Home Page</h1>
+    <%if (loggedIn) {%>
+        <h1>Hallo <%= name%></h1>
+        <h1>You are logged In</h1>
+
+    <%} else{%>
+        <h1>You are not logged In, please login :)</h1>
+    <%}%>
+
+</body>
+</html>
